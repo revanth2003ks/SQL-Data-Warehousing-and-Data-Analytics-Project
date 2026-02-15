@@ -1,4 +1,4 @@
-This Script sets up  three schemas within the database : 'bronze','silver',nad 'gold'
+This Script sets up  three schemas within the database : 'bronze','silver',and 'gold'
 -- Create Database 'DataWarehouse'
 
 USE master;
