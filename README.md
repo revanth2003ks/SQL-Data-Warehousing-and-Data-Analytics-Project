@@ -206,27 +206,6 @@ Activities:
 
 ---
 
-## Repository Structure
-
-```text
-data-warehouse-project
-│
-├── datasets
-│
-├── scripts
-│   ├── bronze
-│   │   ├── ddl_bronze.sql
-│   │   └── proc_load_bronze.sql
-│   │
-│   ├── silver
-│   │   ├── ddl_silver.sql
-│   │   └── proc_load_silver.sql
-│   │
-│   └── gold
-│       └── gold_views.sql
-
-
-
 ## Business Insights Supported
 
 The Gold Layer enables analysis of:
@@ -278,5 +257,26 @@ The Gold Layer enables analysis of:
 * Performance Optimization
 
 ---
+
+
+## Repository Structure
+
+```text
+data-warehouse-project
+│
+├── datasets
+│
+├── scripts
+│   ├── bronze
+│   │   ├── ddl_bronze.sql
+│   │   └── proc_load_bronze.sql
+│   │
+│   ├── silver
+│   │   ├── ddl_silver.sql
+│   │   └── proc_load_silver.sql
+│   │
+│   └── gold
+│       └── gold_views.sql
+
 
 
